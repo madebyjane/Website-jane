@@ -18,7 +18,7 @@ html, body {
 
 .rauwlogo img {
   width: 100%;
-  margin-top: 10px;
+  margin-top: 30px;
   margin-bottom: 10px;
 }
 
@@ -31,21 +31,29 @@ html, body {
   text-align: center;
   font-family: "lato";
   font-size: 17pt;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   margin-top: 10px;
 }
 
 .rauwtekst #demo {
-  font-size: 40pt;
+  font-size: 30pt;
   font-family: "lato";
-  margin-top: 10px;
-  margin-bottom: 10px;
-  
+  margin-top: -20px;
+  margin-bottom: -10px;
 }
 
 h1 {
 	font-size: 25px;
 	margin: 0px;
+}
+
+h2 {
+	font-size: 25px;
+	margin-bottom: -10px;
+}
+
+p {
+	margin-bottom: 15px;
 }
 
 button {
@@ -77,10 +85,11 @@ a {
 
 .fa {
     padding: 20px;
-    font-size: 50px;
-    width: 20px;
+    font-size: 30px !important;
+    width: 30px;
     text-align: center;
     text-decoration: none;
+	margin-bottom: 15px;
 }
 
 /* Add a hover effect if you want */
