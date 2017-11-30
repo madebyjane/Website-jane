@@ -1,61 +1,41 @@
 @charset "UTF-8";
 /* CSS Document */
 
-html, body
-{
-	height: 100%;
-	width: 100%;
-	margin-right: 0;
-	margin-left: 0;
-	padding-right: 30px;
-	text-align: center;
-	
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-.rauwkost
-{
-	border: 5px solid red;
-	width: 100%;
-	height: 100%;
-	flex-direction: column;
-	flex-flow: 	row wrap;
-	
-	
+.rauwkost {
+  height: 100%;
+  display: flex;
+  flex-direction: column; /* dit zet de elementen onder elkaar */
+  justify-content: center; /* verticaal centreren */
+  align-items: center; /* horizontaal centreren */
 }
 
-.rauwlogo
-{
-	width: 70%; 
-	margin: 0px;
-	border: 5px solid green;
-	position: absolute;
-
-
-	
+.rauwlogo {
+  border: 5px solid green;
+  width: 70%;
 }
 
-img
-{
-	width: 100%;
+.rauwlogo img {
+  width: 100%;
 }
 
-p
-{
-	
-	text-align: center;
+.rauwtekst {
+  width: 70%;
+  margin: 0px;
+  border: 5px solid blue;
 }
 
-.rauwtekst
-{
-	width: 70%; 
-	margin: 0px;
-	border: 5px solid blue;
-	display: flex;
-	justify-content: center;
+.rauwtekst p {
+  text-align: center;
 }
 
-.demo
-{
-	text-decoration: none;
-	font-size: 40pt;
+.rauwtekst #demo {
+  text-decoration: none;
+  font-size: 40pt;
 }
