@@ -19,11 +19,13 @@ html, body {
 .rauwlogo img {
   width: 100%;
   margin-top: 30px;
-  margin-bottom: -20px;
+  margin-bottom: 0px;
 }
 
 .rauwtekst {
   text-align: center;
+  font-size: 17px;
+  line-height: 20pt;
 }
 
 .rauwtekst p.center {
@@ -31,34 +33,34 @@ html, body {
   text-align: center;
   font-family: "lato";
   font-size: 17pt;
-  margin-bottom: 0px;
-  margin-top: 10px;
 }
 
 .rauwtekst #demo {
   font-size: 30pt;
   font-family: "lato";
-  margin-top: -25px;
-  margin-bottom: -10px;
+  margin-top: 0px;
+  margin-bottom: 35px;
 }
 
 h1 {
 	font-size: 33px;
-	margin-bottom: -25px;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	line-height: 50pt;
 }
 
 h2 {
 	font-size: 33px;
-	margin: -10px;
+	margin: 0px;
 }
 
 h3 {
 	font-size: 25px;
-	margin-bottom: -10px;
+	margin-bottom: 0px;
 }
 
 p {
-	margin-bottom: 15px;
+	margin-bottom: 10px;
 }
 
 button {
