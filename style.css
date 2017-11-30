@@ -8,34 +8,36 @@ html, body {
   padding: 0;
   font-family: 'lato', sans-serif;
   line-height: 2;
+  border: 5px solid blue;
 }
 
 .rauwkost {
   width: 70%;
   max-width: 1000px;
   margin: auto;
-}
-
-.rauwlogo {
   border: 5px solid green;
 }
 
 .rauwlogo img {
   width: 100%;
+  margin-top: 10px;
+  border: 5px solid red;
 }
 
 .rauwtekst {
   padding: 0 10%;
   text-align: center;
-  border: 5px solid blue;
+  border: 5px solid orange;
 }
 
 .rauwtekst p.center {
+  width: 100%;
   text-align: center;
   font-family: "lato";
   font-size: 17pt;
   margin-bottom: 10px;
   margin-top: 10px;
+  border: 5px solid red;
 }
 
 .rauwtekst #demo {
@@ -43,10 +45,7 @@ html, body {
   font-family: "lato";
   margin-top: 10px;
   margin-bottom: 10px;
-}
-
-.rauwtekst #rauwtext {
-	font-size: 14pt;
+  
 }
 
 button {
