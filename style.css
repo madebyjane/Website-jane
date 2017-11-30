@@ -1,24 +1,23 @@
 @charset "UTF-8";
 /* CSS Document */
 
+@import url('font.css');
+
 html, body {
-  height: 100%;
-  width: 100%;
   margin: 0;
   padding: 0;
+  font-family: 'Lato', sans-serif;
+  line-height: 2;
 }
 
 .rauwkost {
-  height: 100%;
-  display: flex;
-  flex-direction: column; /* dit zet de elementen onder elkaar */
-  justify-content: center; /* verticaal centreren */
-  align-items: center; /* horizontaal centreren */
+  width: 70%;
+  max-width: 1000px;
+  margin: auto;
 }
 
 .rauwlogo {
   border: 5px solid green;
-  width: 70%;
 }
 
 .rauwlogo img {
@@ -26,16 +25,14 @@ html, body {
 }
 
 .rauwtekst {
-  width: 70%;
-  margin: 0px;
+  padding: 0 10%;
   border: 5px solid blue;
 }
 
-.rauwtekst p {
+.rauwtekst p.center {
   text-align: center;
 }
 
 .rauwtekst #demo {
-  text-decoration: none;
   font-size: 40pt;
 }

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <title>RAUWKOST</title>
-    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
@@ -12,47 +12,64 @@
 	<img src="rauwkost_logo.png">
       </div>
       <div class="rauwtekst">
-	<p>
-	  <p>Het festival begint over!</p>
-	  
-  	  <p id="demo"></p>
-	  <script>
-	    // Set the date we're counting down to
-	    var countDownDate = new Date("Jan 27, 2018 14:00:00").getTime();
+	<p class="center">Het festival begint over!</p>
 
-	    // Update the count down every 1 second
-	    var x = setInterval(function() {
+  	<p class="center" id="demo"></p>
 
-		// Get todays date and time
-		var now = new Date().getTime();
+        <p>
+          Rauwkost is een splinternieuw gratis muziekfestival in het laatste rauwe stukje van Den Bosch: de Kop van 't Zand. Deze bonte uitmarkt laat je kennis maken met alle uithoeken van het gebied en geeft een overzicht van het actuele activiteitenaanbod in de stad.
+        </p>
 
-		// Find the distance between now an the count down date
-		var distance = countDownDate - now;
+        <p>
+          Jonge ondernemers, artiesten en makers laten het rauwe randje van de stad zien en horen. In vier oude fabrieken maak je kennis met muziek en kunst van alle soorten en maten. Laat het maar gewoon rauw op je dak komen ;-)
+        </p>
 
-		// Time calculations for days, hours, minutes and seconds
-		var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-		var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-		var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-		var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        <p>
+          NACHTPROGRAMMA<br>
+          Vanaf middernacht presenteren jonge ondernemers uit de stad een super heet nachtprogramma. Samen laten we zien dat Den Bosch al lang niet meer de stad van je moeder is. Een nachtticket kost €7,50 en is overal geldig! Wees er wel snel bij, want de 6 feestlocaties hebben maar ruimte voor 2000 mensen.
+        </p>
 
-		// Output the result in an element with id="demo"
-		document.getElementById("demo").innerHTML = days + ": " + hours + ": "
-							  + minutes + ": " + seconds + " ";
+        <p>
+          WIL JE MEEDOEN?<br>
+          In gezamenlijkheid laat jong Den Bosch zich van haar rauwe kant zien en horen. Het experiment wordt geëerd en er is ruimte voor nieuwe initiatieven. Heb jij een idee? Laat het direct weten via meedoen@rauwkost.online
+        </p>
 
-		// If the count down is over, write some text 
-		if (distance < 0) {
-		    clearInterval(x);
-		    document.getElementById("demo").innerHTML = "EXPIRED";
-		}
-	    }, 1000);
-	  </script>
-	  
-	  
-	</p>
+        <p>
+          Volg het laatste ongesneden RAUWKOST nieuws via Facebook!
+        </p>
       </div>
-      
-      
-      
     </div>
+
+    <script>
+      // Set the date we're counting down to
+      var countDownDate = new Date("Jan 27, 2018 14:00:00").getTime();
+
+      // Update the count down every 1 second
+      var x = setInterval(function() {
+
+	  // Get todays date and time
+	  var now = new Date().getTime();
+
+	  // Find the distance between now an the count down date
+	  var distance = countDownDate - now;
+
+	  // Time calculations for days, hours, minutes and seconds
+	  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+	  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+	  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+	  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+	  // Output the result in an element with id="demo"
+	  document.getElementById("demo").innerHTML = days + ": " + hours + ": "
+						    + minutes + ": " + seconds + " ";
+
+	  // If the count down is over, write some text 
+	  if (distance < 0) {
+	      clearInterval(x);
+	      document.getElementById("demo").innerHTML = "EXPIRED";
+	  }
+      }, 1000);
+    </script>
+
   </body>
 </html>
