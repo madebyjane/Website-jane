@@ -58,6 +58,7 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 22px;
+	margin-bottom: 15px;
 }
 
 button:hover {
@@ -69,4 +70,40 @@ button:hover {
     text-decoration: none;
     display: inline-block;
     font-size: 22px;
+}
+
+a {
+	color: #000000;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 50px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #000000;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #000000;
+    color: white;
+}
+
+.fa-instagram {
+	background: #000000;
+	color: white;
 }
