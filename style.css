@@ -38,7 +38,7 @@ html, body {
 .rauwtekst #demo {
   font-size: 30pt;
   font-family: "lato";
-  margin-top: 0px;
+  margin-top: -25px;
   margin-bottom: 35px;
 }
 
@@ -57,6 +57,12 @@ h2 {
 h3 {
 	font-size: 25px;
 	margin-bottom: 0px;
+}
+
+h4 {
+	font-size: 65px;
+	margin-bottom: 0px;
+	margin-top: 0px;
 }
 
 p {
@@ -121,4 +127,8 @@ a {
 .fa-instagram {
 	background: #000000;
 	color: white;
+}
+
+.social #img {
+	width: 20px;
 }
